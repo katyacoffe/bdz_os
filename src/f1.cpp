@@ -3,7 +3,7 @@
 #include <vector>
 #include <climits>
 #include <cstring>
-#include "function.h"
+#include "/lib/function.h"
 using namespace std;
 
 bool isValid(vector<vector<int>> const &mat, vector<vector<bool>> &visited,
