@@ -1,4 +1,6 @@
 #include "lib/function.h"
+int row[] = { -1, 0, 0, 1 };
+int col[] = { 0, -1, 1, 0 };
 
 int findShortestPathLength(vector<vector<int>> const &mat, pair<int, int> &src,
 					pair<int, int> &dest)
