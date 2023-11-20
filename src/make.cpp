@@ -1,15 +1,5 @@
-#include "function.h"
-// A Queue Node
-struct Node
-{
-	// (x, y) represents matrix cell coordinates, and
-	// `dist` represents their minimum distance from the source
-	int x, y, dist;
-};
+#include "lib/function.h"
 
-// Below arrays detail all four possible movements from a cell
-int row[] = { -1, 0, 0, 1 };
-int col[] = { 0, -1, 1, 0 };
 
 int main()
 {

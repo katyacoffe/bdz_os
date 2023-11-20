@@ -1,10 +1,4 @@
-#include <iostream>
-#include <queue>
-#include <vector>
-#include <climits>
-#include <cstring>
 #include "lib/function.h"
-using namespace std;
 
 int findShortestPathLength(vector<vector<int>> const &mat, pair<int, int> &src,
 					pair<int, int> &dest)

@@ -1,10 +1,4 @@
-#include <iostream>
-#include <queue>
-#include <vector>
-#include <climits>
-#include <cstring>
-#include "/lib/function.h"
-using namespace std;
+#include "lib/function.h"
 
 bool isValid(vector<vector<int>> const &mat, vector<vector<bool>> &visited,
 		int row, int col) {
