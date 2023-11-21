@@ -6,7 +6,7 @@ mutex mtx;
 int main()
 {
 	thread th(monitoring);
-	
+	th.detach();
 
 	vector<vector<int>> mat =
 	{
@@ -41,7 +41,7 @@ int main()
 		cout << "Путь не может быть найден при заданных параметрах" << endl;
 		return main();
 	}
-	th.join();
+	
 
 	return 0;
 }
